@@ -43,7 +43,7 @@ const crearEvento = async(req, res = response) => {
 
         return res.status(200).json({
             ok:true,
-            msg: eventSave
+            evento: eventSave
         })
         
     } catch (error) {
